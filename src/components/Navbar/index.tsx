@@ -2,7 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+import { FaArrowRight } from "react-icons/fa";
+
 import { cn } from "@/lib/utils";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 import {
@@ -14,12 +17,20 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
     <nav className="flex justify-between p-4 border-b-2">
       <div className="flex gap-4">
-        <Image src="/vercel.svg" width={141} height={32} alt="Vercel's logo" />
+        <Link href="/">
+          <Image
+            src="/vercel.svg"
+            width={141}
+            height={32}
+            alt="Vercel's logo"
+          />
+        </Link>
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -89,6 +100,13 @@ const Navbar = () => {
                         </p>
                       </NavigationMenuLink>
                     </Link>
+                  </li>
+                  <li>
+                    <Button asChild className="mt-2">
+                      <Link href="/courses">
+                        Explore courses <FaArrowRight className="ml-2" />
+                      </Link>
+                    </Button>
                   </li>
                 </ul>
               </NavigationMenuContent>
