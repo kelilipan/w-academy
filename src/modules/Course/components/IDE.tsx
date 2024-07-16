@@ -4,7 +4,7 @@ import Editor, { type EditorProps } from "@monaco-editor/react";
 const IDE = () => {
   const content = `const yourName = "kimi no nawa";
 console.log(yourName);
-  `;
+`;
 
   const editorConfig: EditorProps["options"] = { minimap: { enabled: false } };
 

@@ -9,7 +9,7 @@ const Terminal = () => {
       <ReactTerminal
         welcomeMessage={
           <>
-            Try "whoami" or "clear".
+            Try `whoami` or `clear`.
             <br />
           </>
         }
