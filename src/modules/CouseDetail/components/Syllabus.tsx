@@ -19,8 +19,10 @@ const Syllabus = () => {
           </AccordionTrigger>
           <AccordionContent>
             <p>
-              You will learn Lorem ipsum dolor, sit amet consectetur adipisicing
-              elit.
+              You will learn Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Nisi rem cum repellendus omnis reiciendis voluptates, non
+              accusantium consectetur provident ipsam commodi aliquid, aut
+              mollitia ipsum quisquam odio! Labore, distinctio sunt.
             </p>
             <Button className="mt-4" asChild>
               <Link href="/course/javascript/exercise/hello-world">
@@ -35,8 +37,10 @@ const Syllabus = () => {
           </AccordionTrigger>
           <AccordionContent>
             <p>
-              You will learn Lorem ipsum dolor, sit amet consectetur adipisicing
-              elit.
+              You will learn Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Nisi rem cum repellendus omnis reiciendis voluptates, non
+              accusantium consectetur provident ipsam commodi aliquid, aut
+              mollitia ipsum quisquam odio! Labore, distinctio sunt.
             </p>
             <Button className="mt-4" asChild>
               <Link href="/course/javascript/exercise/hello-world">
@@ -51,8 +55,28 @@ const Syllabus = () => {
           </AccordionTrigger>
           <AccordionContent>
             <p>
-              You will learn Lorem ipsum dolor, sit amet consectetur adipisicing
-              elit.
+              You will learn Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Nisi rem cum repellendus omnis reiciendis voluptates, non
+              accusantium consectetur provident ipsam commodi aliquid, aut
+              mollitia ipsum quisquam odio! Labore, distinctio sunt.
+            </p>
+            <Button className="mt-4" asChild>
+              <Link href="/course/javascript/exercise/hello-world">
+                Learn <FaArrowRight className="ml-2" />
+              </Link>
+            </Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="font-bold text-lg">
+            4. More More & More Introduction
+          </AccordionTrigger>
+          <AccordionContent>
+            <p>
+              You will learn Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Nisi rem cum repellendus omnis reiciendis voluptates, non
+              accusantium consectetur provident ipsam commodi aliquid, aut
+              mollitia ipsum quisquam odio! Labore, distinctio sunt.
             </p>
             <Button className="mt-4" asChild>
               <Link href="/course/javascript/exercise/hello-world">

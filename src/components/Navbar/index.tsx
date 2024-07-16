@@ -18,7 +18,7 @@ import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between p-4 border-b-2">
+    <nav className="flex justify-between p-4 border-b-2 sticky top-0 bg-white">
       <div className="flex gap-4">
         <Link href="/">
           <Image
