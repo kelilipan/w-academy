@@ -1,4 +1,6 @@
-import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
+
 import {
   Accordion,
   AccordionContent,
@@ -6,8 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
 
 const Syllabus = () => {
   return (

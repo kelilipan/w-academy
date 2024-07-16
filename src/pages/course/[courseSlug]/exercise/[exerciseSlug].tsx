@@ -1,5 +1,3 @@
-import React from "react";
-
 import ExerciseModule from "@/modules/Exercise";
 
 const ExerciseDetailPage = () => {

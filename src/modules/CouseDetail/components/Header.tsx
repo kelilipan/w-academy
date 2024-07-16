@@ -1,9 +1,4 @@
-import React from "react";
 import Link from "next/link";
-
-import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
-
 import {
   FaBook,
   FaCertificate,
@@ -11,6 +6,10 @@ import {
   FaPuzzlePiece,
 } from "react-icons/fa";
 import { useRouter } from "next/router";
+
+import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
+
 const Header = () => {
   const router = useRouter();
   const perks = [

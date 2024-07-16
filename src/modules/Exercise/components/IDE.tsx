@@ -1,4 +1,3 @@
-import React from "react";
 import Editor, { type EditorProps } from "@monaco-editor/react";
 
 const IDE = () => {

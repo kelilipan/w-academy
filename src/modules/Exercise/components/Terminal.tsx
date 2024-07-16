@@ -1,4 +1,3 @@
-import React from "react";
 import { ReactTerminal, TerminalContextProvider } from "react-terminal";
 const Terminal = () => {
   const commands = {

@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import React, { useState } from "react";
 import { FaRedo } from "react-icons/fa";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 interface ControlProps {
   onSubmit: (input: string) => void;
   onReload: () => void;

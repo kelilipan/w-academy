@@ -1,5 +1,5 @@
 import Main from "@/Layouts/Main";
-import React from "react";
+
 import Header from "./components/Header";
 import Syllabus from "./components/Syllabus";
 

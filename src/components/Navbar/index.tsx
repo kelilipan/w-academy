@@ -1,13 +1,9 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
 import { FaArrowRight } from "react-icons/fa";
 
 import { cn } from "@/lib/utils";
-
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -17,6 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+
 import { Button } from "../ui/button";
 
 const Navbar = () => {

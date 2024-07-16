@@ -1,4 +1,3 @@
-import React from "react";
 import { Content } from "./components/Content";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
