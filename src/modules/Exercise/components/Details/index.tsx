@@ -6,7 +6,7 @@ import Header from "./components/Header";
 const Details = () => {
   //@todo: use markdown renderer
   return (
-    <div className="flex flex-col bg-white rounded-md relative">
+    <div className="flex flex-col bg-white rounded-md relative h-full">
       <Header />
       <Content />
       <Navigation />

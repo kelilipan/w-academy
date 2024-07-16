@@ -11,7 +11,7 @@ const Browser = () => {
     setKey((prev) => prev + 1);
   };
   return (
-    <div className="flex-1 rounded-md bg-white flex flex-col">
+    <div className="flex-1 rounded-md bg-white flex flex-col h-full">
       <Control onSubmit={handleSubmit} onReload={handleReload} />
       <iframe
         key={randomKey}
