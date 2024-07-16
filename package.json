@@ -34,7 +34,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "eslint --cache --fix"
+      "next lint --file --fix"
     ]
   }
 }
