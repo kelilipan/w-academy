@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import Meta from "@/components/Meta";
 
 const Header = () => {
   const router = useRouter();
@@ -20,6 +21,8 @@ const Header = () => {
   ];
   return (
     <section id="course-detail" className="grid grid-cols-[2fr_1fr] gap-8">
+      <Meta pageName={router.query.courseSlug?.toString()} />
+
       <div id="header-detail" className="mt-12">
         <h1 className="text-6xl font-bold">
           Learn <span className="capitalize">{router.query.courseSlug}</span>

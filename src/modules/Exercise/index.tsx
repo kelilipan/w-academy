@@ -7,6 +7,7 @@ import {
   ResizablePanel,
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
+import Meta from "@/components/Meta";
 
 // @todo: use skeleton loader
 const IDE = dynamic(() => import("./components/IDE"), {
@@ -29,8 +30,11 @@ const ExerciseModule = () => {
   //@todo: use params data
   const router = useRouter();
   console.log(router.query.exerciseSlug, router.query.courseSlug);
+
   return (
     <Main className="flex flex-col">
+      <Meta pageName={router.query.courseSlug?.toString() + " exercise"} />
+
       <ResizablePanelGroup
         direction="horizontal"
         className="flex-1 p-4 gap-2 bg-slate-200"
