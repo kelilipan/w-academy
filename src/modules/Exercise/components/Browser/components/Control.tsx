@@ -51,6 +51,7 @@ const Control = ({ onSubmit, onReload }: ControlProps) => {
         <FaRedo />
       </Button>
       <Input
+        aria-label="web browser address bar"
         className="rounded-l-none"
         type="text"
         value={inputValue}
