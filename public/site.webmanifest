@@ -1,5 +1,6 @@
 {
   "name": "W-Academy",
+  "start_url": ".",
   "short_name": "Learn programming with pain.",
   "icons": [
     {
@@ -15,5 +16,14 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "screenshots": [
+    {
+      "src": "ss.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Exercise page"
+    }
+  ]
 }
