@@ -1,0 +1,4 @@
+# robots.txt for academy.wisesa.dev
+
+User-agent: *
+Disallow: /course/*/exercise/*
