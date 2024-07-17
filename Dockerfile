@@ -6,8 +6,6 @@ FROM base AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-# this is to enable build output standalone
-ENV BUILD_STANDALONE true
 
 # Install dependencies based on the preferred package manager
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
@@ -29,6 +27,9 @@ COPY . .
 # Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line in case you want to disable telemetry during the build.
 ENV NEXT_TELEMETRY_DISABLED 1
+
+# this is to enable build output standalone
+ENV BUILD_STANDALONE true
 
 RUN \
   if [ -f yarn.lock ]; then yarn run build; \
